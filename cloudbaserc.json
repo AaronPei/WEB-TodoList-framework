@@ -25,6 +25,17 @@
           ]
         }
       },
+      "auth": {
+        "use": "@cloudbase/framework-plugin-auth",
+        "inputs": {
+          "configs": [
+            {
+              "platform": "ANONYMOUS",
+              "status": "ENABLE"
+            }
+          ]
+        }
+      },
       "server": {
         "use": "@cloudbase/framework-plugin-function",
         "inputs": {
